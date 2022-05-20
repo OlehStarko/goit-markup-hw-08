@@ -1,31 +1,50 @@
 // .dignity__list {
 //   display: flex;
 // }
+.dignity__list {
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  @media screen and(max-width:767px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media screen and(min-width:767px) {
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 .dignity__item {
   width: 450px;
-  &:not(:last-child) {
-    margin-bottom: 30px;
+  margin-top: 30px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+  @media screen and(min-width:767px) {
+    width: 354px;
+    margin-top: 0;
+    margin-right: 10px;
+    // &:nth-child(even) {
+    //   margin-right: 0;
+    // }
   }
 }
 .dignity__name {
   margin-bottom: 10px;
-  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
-  text-align: center;
-  letter-spacing: 0.03em;
+  font-weight: 700;
+  line-height: 1.14;
   text-transform: uppercase;
-
+  text-align: center;
   color: $dignity-article-text-color;
 }
 .dignity__description {
-  font-weight: 400;
-  font-size: 14px;
   line-height: 24px;
-  letter-spacing: 0.03em;
-
   color: $dignity-description-text-color;
-  margin-bottom: 0;
 }
 
 .dignity__icon {
