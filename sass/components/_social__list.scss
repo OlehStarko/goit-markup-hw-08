@@ -1,5 +1,8 @@
 .social__list {
   display: flex;
+  @media screen and(min-width: 767px) {
+    display: none;
+  }
 }
 .social__item {
   padding-right: 10px;
@@ -17,9 +20,6 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
-  /* identical to box height, or 122% */
-
   letter-spacing: 0.02em;
-
   color: #2196f3;
 }

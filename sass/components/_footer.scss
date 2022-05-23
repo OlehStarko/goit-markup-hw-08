@@ -6,14 +6,12 @@
 }
 
 .footer__conatiner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 .adress {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .adress__box {

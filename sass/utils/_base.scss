@@ -53,9 +53,14 @@ img {
 }
 
 .container {
-  min-width: 480px;
-  margin-right: auto;
+  position: relative;
+  max-width: 767px;
   margin-left: auto;
+  margin-right: auto;
   padding-right: 15px;
   padding-left: 15px;
+  @media screen and (min-width: 767px) {
+    min-width: 767px;
+    max-width: 1024px;
+  }
 }
