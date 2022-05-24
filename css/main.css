@@ -410,6 +410,9 @@ img {
 }
 
 @media screen and (min-width: 1199px) {
+  .contact__item {
+    margin-right: 20px;
+  }
   .contact__item:last-child {
     margin-bottom: 0;
   }
@@ -481,6 +484,18 @@ img {
 
 .contact__item:hover .contact__link--small {
   color: #2196f3;
+}
+
+.contact__item:hover .contact__link {
+  color: #2196f3;
+}
+
+.contact__item:hover .contact__list--mail {
+  fill: #2196f3;
+}
+
+.contact__item:hover .contact__list--smartphone {
+  fill: #2196f3;
 }
 
 .hero__title {
