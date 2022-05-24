@@ -9,6 +9,11 @@
   text-align: center;
   text-transform: uppercase;
   color: $hero-main-text-color;
+  @media screen and(min-width: 1023px) {
+    width: 696px;
+    font-size: 44px;
+    line-height: 60px;
+  }
 }
 
 .hero__container {
@@ -52,5 +57,11 @@
   &:focus {
     background: $hero-btn-active-color;
     transform: scale(1.1);
+  }
+}
+.footer__button {
+  @media screen and(min-width: 1199px) {
+    margin-left: 12px;
+    margin-right: 0;
   }
 }

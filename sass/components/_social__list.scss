@@ -23,3 +23,12 @@
   letter-spacing: 0.02em;
   color: #2196f3;
 }
+
+.social {
+  @media screen and(min-width: 767px) {
+    margin-left: 165px;
+  }
+  @media screen and(min-width: 1199px) {
+    margin-left: 70px;
+  }
+}

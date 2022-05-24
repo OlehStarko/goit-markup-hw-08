@@ -36,20 +36,22 @@
 }
 
 .menu__container {
-  display: none;
+  width: 100%;
 
-  &.is-open {
-    display: flex;
-    flex-direction: column;
-  }
   @media screen and (min-width: 767px) {
     display: flex;
     justify-content: space-between;
     width: 100%;
   }
   @media screen and (max-width: 767px) {
+    &.is-open {
+      display: flex;
+      flex-direction: column;
+    }
+    display: none;
     position: absolute;
     background-color: #fff;
+    width: 100%;
     padding: 48px 40px;
     z-index: 5;
     top: 0;

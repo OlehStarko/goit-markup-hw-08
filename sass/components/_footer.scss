@@ -6,10 +6,18 @@
 }
 
 .footer__conatiner {
-  width: 480px;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
+  @media screen and(min-width: 1199px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.footer__box {
+  @media screen and(min-width: 767px) {
+    display: flex;
+    justify-content: center;
+  }
 }
 .adress {
 }
