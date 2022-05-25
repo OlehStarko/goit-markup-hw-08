@@ -324,6 +324,14 @@ img {
   color: #2196f3;
 }
 
+@media screen and (max-width: 767px) {
+  .logo--absolute {
+    position: absolute;
+    left: 15px;
+    top: 16px;
+  }
+}
+
 .logo--dark {
   color: #212121;
 }
