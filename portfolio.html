@@ -20,30 +20,113 @@
   <body>
     <!-- Header -->
 
-    <header class="header">
+   <header class="header">
       <div class="container">
         <div class="header__container">
           <nav class="header__nav">
-            <a href="index.html" class="logo"
-              >Web<span class="logo--dark">Studio</span></a
+            <a href="index.html" class="logo logo--absolute"
+              >Web<span class="logo--dark">Studio</span>
+            </a>
+            <button
+              type="button"
+              class="menu__button"
+              aria-expanded="false"
+              data-menu-button
             >
-            <ul class="header__list">
-              <li class="header__item">
-                <a href="./index.html" class="header__link">Студия</a>
-              </li>
+              <svg
+                width="40"
+                height="40"
+                aria-label="Переключатель мобильного меню"
+              >
+                <use
+                  class="menu__icon"
+                  href="images/icons-defs.svg#icon-menu"
+                ></use>
+                <use
+                  class="menu__cross"
+                  href="images/icons-defs.svg#icon-menu-close"
+                ></use>
+              </svg>
+            </button>
+            <div class="menu__container" data-menu>
+              <ul class="header__list">
+                <li class="header__item">
+                  <a
+                    href="./index.html"
+                    class="header__link "
+                    >Студия
+                  </a>
+                </li>
+                <li class="header__item">
+                  <a href="./portfolio.html" class="header__link header__link--current">Портфолио</a>
+                </li>
+                <li class="header__item">
+                  <a href="" class="header__link">Контакты</a>
+                </li>
+              </ul>
+
+              <ul class="contact__list">
+                
+                <li class="contact__item">
+                  <a
+                    href="tel:+380991111111"
+                    class="contact__link"
+                  >
+                    <svg
+                      class="contact__list--smartphone"
+                      width="10px"
+                      height="16px"
+                    >
+                      <use href="./images/icons-defs.svg#icon-smartphone"></use>
+                    </svg>
+                    +38 099 111 11 11</a
+                  >
+                </li>
+                <li class="contact__item">
+                  <a href="mailto:info@devstudio.com" class="contact__link contact__link--dark">
+                    <svg class="contact__list--mail" width="16px" height="12px">
+                      <use href="./images/icons-defs.svg#icon-mail"></use>
+                    </svg>
+
+                    info@devstudio.com</a
+                  >
+                </li>
+              </ul>
+              <ul class="social__list">
+                <li class="social__item">
+                  <a href="https://www.instagram.com/" target="_blank" class="social__link">Instagram
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="https://twitter.com/" target="_blank" class="social__link">Twitter
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="https://www.facebook.com/"  target="_blank" class="social__link">Facebook
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="https://www.linkedin.com/" target="_blank" class="social__link">LinkedIn
+                  </a>
+                </li>
+            </div>
+            <!-- <ul class="header__list">
               <li class="header__item">
                 <a
-                  href="./portfolio.html"
+                  href="./index.html"
                   class="header__link header__link--current"
-                  >Портфолио</a
-                >
+                  >Студия
+                </a>
+              </li>
+              <li class="header__item">
+                <a href="./portfolio.html" class="header__link">Портфолио</a>
               </li>
               <li class="header__item">
                 <a href="" class="header__link">Контакты</a>
               </li>
-            </ul>
+            </ul> -->
           </nav>
-          <ul class="contact__list">
+          <!-- <ul class="contact__list">
             <li class="contact__item">
               <a href="mailto:info@devstudio.com" class="contact__link">
                 <svg class="contact__list--mail" width="16px" height="12px">
@@ -65,7 +148,7 @@
                 +38 099 111 11 11</a
               >
             </li>
-          </ul>
+          </ul> -->
         </div>
       </div>
     </header>
@@ -331,65 +414,66 @@
 
     <footer class="footer">
       <div class="container footer__conatiner">
-        <div class="adress">
-          <a href="index.html" class="logo"
-            >Web<span class="logo--white">Studio</span></a
-          >
-          <address class="adress__box">
-            <ul>
-              <li class="adress__item">
-                <p class="adress__name">г. Киев, пр-т Леси Украинки, 26</p>
+        <div class="footer__box">
+          <div class="adress">
+            <a href="index.html" class="logo"
+              >Web<span class="logo--white">Studio</span></a
+            >
+            <address class="adress__box">
+              <ul>
+                <li class="adress__item">
+                  <p class="adress__name">г. Киев, пр-т Леси Украинки, 26</p>
+                </li>
+                <li class="contact__item contact__item--center">
+                  <a href="mailto:info@example.com" class="contact__link--small"
+                    >info@example.com</a
+                  >
+                </li>
+                <li class="contact__item contact__item--center">
+                  <a href="tel:+380991111111" class="contact__link--small">
+                    +38 099 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+
+          <div class="social">
+            <p class="social__title">присоединяйтесь</p>
+            <ul class="social-box social-box--dark">
+              <li class="social-box__item">
+                <button class="social-box__button social-box__button--dark">
+                  <svg class="social-box__icon" width="20px" height="20px">
+                    <use href="./images/icons-defs.svg#icon-instagram"></use>
+                  </svg>
+                </button>
               </li>
-              <li class="contact__item footer__contact__item">
-                <a href="mailto:info@example.com" class="contact__link"
-                  >info@example.com</a
-                >
+              <li class="social-box__item">
+                <button class="social-box__button social-box__button--dark">
+                  <svg class="social-box__icon" width="20px" height="16px">
+                    <use href="./images/icons-defs.svg#icon-twitter"></use>
+                  </svg>
+                </button>
               </li>
-              <li class="contact__item footer__contact__item">
-                <a href="tel:+380991111111" class="contact__link">
-                  +38 099 111 11 11</a
-                >
+              <li class="social-box__item">
+                <button class="social-box__button social-box__button--dark">
+                  <svg class="social-box__icon" width="10px" height="20px">
+                    <use href="./images/icons-defs.svg#icon-facebook"></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="social-box__item">
+                <button class="social-box__button social-box__button--dark">
+                  <svg class="social-box__icon" width="20px" height="20px">
+                    <use href="./images/icons-defs.svg#icon-indesign"></use>
+                  </svg>
+                </button>
               </li>
             </ul>
-          </address>
+          </div>
         </div>
-
-        <div class="social">
-          <p class="social__title">присоединяйтесь</p>
-          <ul class="social-box">
-            <li class="social-box__item">
-              <button class="social-box__button social-box__button--dark">
-                <svg class="social-box__icon" width="20px" height="20px">
-                  <use href="./images/icons-defs.svg#icon-instagram"></use>
-                </svg>
-              </button>
-            </li>
-            <li class="social-box__item">
-              <button class="social-box__button social-box__button--dark">
-                <svg class="social-box__icon" width="20px" height="16px">
-                  <use href="./images/icons-defs.svg#icon-twitter"></use>
-                </svg>
-              </button>
-            </li>
-            <li class="social-box__item">
-              <button class="social-box__button social-box__button--dark">
-                <svg class="social-box__icon" width="10px" height="20px">
-                  <use href="./images/icons-defs.svg#icon-facebook"></use>
-                </svg>
-              </button>
-            </li>
-            <li class="social-box__item">
-              <button class="social-box__button social-box__button--dark">
-                <svg class="social-box__icon" width="20px" height="20px">
-                  <use href="./images/icons-defs.svg#icon-indesign"></use>
-                </svg>
-              </button>
-            </li>
-          </ul>
-        </div>
-
         <div class="subscribe">
-          <p class="subscribe__title">присоединяйтесь</p>
+          <p class="subscribe__title">Подпишитесь на рассылку</p>
 
           <form class="subscribe__field">
             <input
@@ -410,5 +494,21 @@
         </div>
       </div>
     </footer>
+     <script>
+      (() => {
+        const menuBtnRef = document.querySelector("[data-menu-button]");
+        const mobileMenuRef = document.querySelector("[data-menu]");
+
+        menuBtnRef.addEventListener("click", () => {
+          const expanded =
+            menuBtnRef.getAttribute("aria-expanded") === "true" || false;
+
+          menuBtnRef.classList.toggle("is-open");
+          menuBtnRef.setAttribute("aria-expanded", !expanded);
+
+          mobileMenuRef.classList.toggle("is-open");
+        });
+      })();
+    </script>
   </body>
 </html>
