@@ -46,11 +46,14 @@
   }
 
   @media screen and(min-width: 1199px) {
-    margin-right: 20px;
+    margin-right: 0;
     &:last-child {
       margin-bottom: 0;
     }
   }
+}
+.contact__item--margin-right {
+  margin-right: 24px;
 }
 .contact__item--center {
   text-align: center;

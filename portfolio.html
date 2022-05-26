@@ -20,7 +20,7 @@
   <body>
     <!-- Header -->
 
-   <header class="header">
+ <header class="header">
       <div class="container">
         <div class="header__container">
           <nav class="header__nav">
@@ -61,13 +61,13 @@
                   <a href="./portfolio.html" class="header__link header__link--current">Портфолио</a>
                 </li>
                 <li class="header__item">
-                  <a href="" class="header__link">Контакты</a>
+                  <a href="" class="header__link ">Контакты</a>
                 </li>
               </ul>
 
               <ul class="contact__list">
                 
-                <li class="contact__item">
+                <li class="contact__item contact__item--margin-right">
                   <a
                     href="tel:+380991111111"
                     class="contact__link"
@@ -110,45 +110,7 @@
                   </a>
                 </li>
             </div>
-            <!-- <ul class="header__list">
-              <li class="header__item">
-                <a
-                  href="./index.html"
-                  class="header__link header__link--current"
-                  >Студия
-                </a>
-              </li>
-              <li class="header__item">
-                <a href="./portfolio.html" class="header__link">Портфолио</a>
-              </li>
-              <li class="header__item">
-                <a href="" class="header__link">Контакты</a>
-              </li>
-            </ul> -->
           </nav>
-          <!-- <ul class="contact__list">
-            <li class="contact__item">
-              <a href="mailto:info@devstudio.com" class="contact__link">
-                <svg class="contact__list--mail" width="16px" height="12px">
-                  <use href="./images/icons-defs.svg#icon-mail"></use>
-                </svg>
-
-                info@devstudio.com</a
-              >
-            </li>
-            <li class="contact__item">
-              <a href="tel:+380991111111" class="contact__link">
-                <svg
-                  class="contact__list--smartphone"
-                  width="10px"
-                  height="16px"
-                >
-                  <use href="./images/icons-defs.svg#icon-smartphone"></use>
-                </svg>
-                +38 099 111 11 11</a
-              >
-            </li>
-          </ul> -->
         </div>
       </div>
     </header>
@@ -190,10 +152,10 @@
                 </div>
                 <img
                   class=""
-                  src="./images/portfolio/techno_kr.jpg"
+                  srcset="./images/portfolio/portfolio-mob/portfolio-mob-1x.jpg 1x, ./images/portfolio/portfolio-mob/portfolio-mob-2x.jpg 2x"
+                  src="./images/portfolio/portfolio-mob/portfolio-mob-1x.jpg"
                   alt="Технокряк"
-                  width="370"
-                  height="294"
+                  width="450"
                 />
 
                 <div class="list__description">
@@ -217,7 +179,8 @@
                 </div>
                 <img
                   class=""
-                  src="./images/portfolio/new_orlean_vs_golden_star.jpg"
+                  srcset="./images/portfolio/portfolio-mob/portfolio-mob-1x-1.jpg 1x, ./images/portfolio/portfolio-mob/portfolio-mob-2x-1.jpg 2x"
+                  src="./images/portfolio/portfolio-mob/portfolio-mob-1x-1.jpg"
                   alt="New Orlean vs Golden Star"
                 />
                 <div class="list__description">
@@ -243,6 +206,7 @@
                 </div>
                 <img
                   class=""
+                  
                   src="./images/portfolio/seafood.jpg"
                   alt="Seafood"
                   width="370"

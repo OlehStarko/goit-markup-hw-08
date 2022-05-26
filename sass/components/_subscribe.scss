@@ -25,7 +25,7 @@
 .subscribe__input {
   margin-bottom: 20px;
   padding: 15px 16px;
-  width: 450px;
+  width: calc(100% - 30px);
   height: 50px;
   color: rgba(255, 255, 255, 0.6);
   background-color: $footer-bg-color;
