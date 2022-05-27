@@ -20,7 +20,7 @@
   <body>
     <!-- Header -->
 
- <header class="header">
+    <header class="header">
       <div class="container">
         <div class="header__container">
           <nav class="header__nav">
@@ -61,7 +61,7 @@
                   <a href="./portfolio.html" class="header__link header__link--current">Портфолио</a>
                 </li>
                 <li class="header__item">
-                  <a href="" class="header__link ">Контакты</a>
+                  <a href="" class="header__link">Контакты</a>
                 </li>
               </ul>
 
@@ -110,7 +110,9 @@
                   </a>
                 </li>
             </div>
+           
           </nav>
+         
         </div>
       </div>
     </header>
@@ -374,105 +376,105 @@
       </section>
     </main>
 
-    <!-- Footer-->
+       <!-- Footer-->
 
-    <footer class="footer">
-      <div class="container footer__conatiner">
-        <div class="footer__box">
-          <div class="adress">
-            <a href="index.html" class="logo"
-              >Web<span class="logo--white">Studio</span></a
-            >
-            <address class="adress__box">
-              <ul>
-                <li class="adress__item">
-                  <p class="adress__name">г. Киев, пр-т Леси Украинки, 26</p>
+       <footer class="footer">
+        <div class="container footer__conatiner">
+          <div class="footer__box">
+            <div class="adress">
+              <a href="index.html" class="logo"
+                >Web<span class="logo--white">Studio</span></a
+              >
+              <address class="adress__box">
+                <ul>
+                  <li class="adress__item">
+                    <p class="adress__name">г. Киев, пр-т Леси Украинки, 26</p>
+                  </li>
+                  <li class="contact__item contact__item--center">
+                    <a href="mailto:info@example.com" class="contact__link--small"
+                      >info@example.com</a
+                    >
+                  </li>
+                  <li class="contact__item contact__item--center">
+                    <a href="tel:+380991111111" class="contact__link--small">
+                      +38 099 111 11 11</a
+                    >
+                  </li>
+                </ul>
+              </address>
+            </div>
+  
+            <div class="social">
+              <p class="social__title">присоединяйтесь</p>
+              <ul class="social-box social-box--dark">
+                <li class="social-box__item">
+                  <button class="social-box__button social-box__button--dark">
+                    <svg class="social-box__icon" width="20px" height="20px">
+                      <use href="./images/icons-defs.svg#icon-instagram"></use>
+                    </svg>
+                  </button>
                 </li>
-                <li class="contact__item contact__item--center">
-                  <a href="mailto:info@example.com" class="contact__link--small"
-                    >info@example.com</a
-                  >
+                <li class="social-box__item">
+                  <button class="social-box__button social-box__button--dark">
+                    <svg class="social-box__icon" width="20px" height="16px">
+                      <use href="./images/icons-defs.svg#icon-twitter"></use>
+                    </svg>
+                  </button>
                 </li>
-                <li class="contact__item contact__item--center">
-                  <a href="tel:+380991111111" class="contact__link--small">
-                    +38 099 111 11 11</a
-                  >
+                <li class="social-box__item">
+                  <button class="social-box__button social-box__button--dark">
+                    <svg class="social-box__icon" width="10px" height="20px">
+                      <use href="./images/icons-defs.svg#icon-facebook"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="social-box__item">
+                  <button class="social-box__button social-box__button--dark">
+                    <svg class="social-box__icon" width="20px" height="20px">
+                      <use href="./images/icons-defs.svg#icon-indesign"></use>
+                    </svg>
+                  </button>
                 </li>
               </ul>
-            </address>
+            </div>
           </div>
-
-          <div class="social">
-            <p class="social__title">присоединяйтесь</p>
-            <ul class="social-box social-box--dark">
-              <li class="social-box__item">
-                <button class="social-box__button social-box__button--dark">
-                  <svg class="social-box__icon" width="20px" height="20px">
-                    <use href="./images/icons-defs.svg#icon-instagram"></use>
-                  </svg>
-                </button>
-              </li>
-              <li class="social-box__item">
-                <button class="social-box__button social-box__button--dark">
-                  <svg class="social-box__icon" width="20px" height="16px">
-                    <use href="./images/icons-defs.svg#icon-twitter"></use>
-                  </svg>
-                </button>
-              </li>
-              <li class="social-box__item">
-                <button class="social-box__button social-box__button--dark">
-                  <svg class="social-box__icon" width="10px" height="20px">
-                    <use href="./images/icons-defs.svg#icon-facebook"></use>
-                  </svg>
-                </button>
-              </li>
-              <li class="social-box__item">
-                <button class="social-box__button social-box__button--dark">
-                  <svg class="social-box__icon" width="20px" height="20px">
-                    <use href="./images/icons-defs.svg#icon-indesign"></use>
-                  </svg>
-                </button>
-              </li>
-            </ul>
+          <div class="subscribe">
+            <p class="subscribe__title">Подпишитесь на рассылку</p>
+  
+            <form class="subscribe__field">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="E-mail"
+                class="subscribe__input"
+              />
+  
+              <button class="button footer__button" data-modal-open>
+                Подписаться
+                <svg width="24px" height="24px" class="subscribe__icon">
+                  <use href="./images/icons-defs.svg#icon-icon-send"></use>
+                </svg>
+              </button>
+            </form>
           </div>
         </div>
-        <div class="subscribe">
-          <p class="subscribe__title">Подпишитесь на рассылку</p>
-
-          <form class="subscribe__field">
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="E-mail"
-              class="subscribe__input"
-            />
-
-            <button class="button footer__button" data-modal-open>
-              Подписаться
-              <svg width="24px" height="24px" class="subscribe__icon">
-                <use href="./images/icons-defs.svg#icon-icon-send"></use>
-              </svg>
-            </button>
-          </form>
-        </div>
-      </div>
-    </footer>
-     <script>
-      (() => {
-        const menuBtnRef = document.querySelector("[data-menu-button]");
-        const mobileMenuRef = document.querySelector("[data-menu]");
-
-        menuBtnRef.addEventListener("click", () => {
-          const expanded =
-            menuBtnRef.getAttribute("aria-expanded") === "true" || false;
-
-          menuBtnRef.classList.toggle("is-open");
-          menuBtnRef.setAttribute("aria-expanded", !expanded);
-
-          mobileMenuRef.classList.toggle("is-open");
-        });
-      })();
-    </script>
+      </footer>
+      <script>
+        (() => {
+          const menuBtnRef = document.querySelector("[data-menu-button]");
+          const mobileMenuRef = document.querySelector("[data-menu]");
+  
+          menuBtnRef.addEventListener("click", () => {
+            const expanded =
+              menuBtnRef.getAttribute("aria-expanded") === "true" || false;
+  
+            menuBtnRef.classList.toggle("is-open");
+            menuBtnRef.setAttribute("aria-expanded", !expanded);
+  
+            mobileMenuRef.classList.toggle("is-open");
+          });
+        })();
+      </script>
   </body>
 </html>

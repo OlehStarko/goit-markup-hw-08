@@ -1,6 +1,6 @@
 .hero__title {
   min-width: 200px;
-  max-width: 360px;
+
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -10,7 +10,10 @@
   text-align: center;
   text-transform: uppercase;
   color: $hero-main-text-color;
-  @media screen and(min-width: 1023px) {
+  @media screen and(min-width: 479px) and (max-width: 1199px) {
+    width: 360px;
+  }
+  @media screen and(min-width: 1199px) {
     width: 696px;
     font-size: 44px;
     line-height: 60px;
@@ -18,7 +21,6 @@
 }
 
 .hero__container {
-  // min-width: 480px;
   padding-top: 118px;
   padding-bottom: 118px;
 

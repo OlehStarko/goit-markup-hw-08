@@ -25,8 +25,6 @@
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 350ms $timing-function;
-  //   min-width: 528px;
-  //   min-height: 581px;
   width: calc(100% - 15px);
   max-width: 450px;
   padding: 40px;

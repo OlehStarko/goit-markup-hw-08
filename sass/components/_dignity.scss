@@ -1,6 +1,3 @@
-// .dignity__list {
-//   display: flex;
-// }
 .dignity__list {
   @media screen and(min-width: 767px) {
     display: flex;
@@ -11,7 +8,6 @@
   }
 }
 .dignity__item {
-  // width: 450px;
   margin-top: 30px;
   &:first-child {
     margin-top: 0;
@@ -64,27 +60,6 @@
     background-position: center;
   }
 }
-// .dignity__item {
-//   width: 270px;
-
-//   &:not(:last-child) {
-//     margin-right: 30px;
-//   }
-// }
-
-// .dignity__icon {
-//   &::before {
-//     display: block;
-//     content: "";
-//     border-radius: 4px;
-//     height: 120px;
-//     margin-bottom: 30px;
-//     background-color: #f5f4fa;
-
-//     background-repeat: no-repeat;
-//     background-position: center;
-//   }
-// }
 
 .dignity__details {
   &::before {
@@ -121,18 +96,3 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-// .dignity__name {
-//   margin-bottom: 10px;
-//   font-size: 14px;
-//   font-weight: 700;
-//   line-height: 1.14;
-//   text-transform: uppercase;
-//   color: $dignity-article-text-color;
-// }
-
-// .dignity__description {
-//   line-height: 24px;
-//   color: $dignity-description-text-color;
-//   margin-bottom: 0;
-// }

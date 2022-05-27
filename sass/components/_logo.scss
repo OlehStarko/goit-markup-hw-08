@@ -10,19 +10,16 @@
   letter-spacing: 0.03em;
   display: block;
   color: #2196f3;
-  // @media screen and(max-width:767px) {
-  //   position: absolute;
-  //   left: 15px;
-  //   top: 16px;
-  // }
 }
 .logo--absolute {
+
   @media screen and(max-width:767px) {
     position: absolute;
     left: 15px;
     top: 16px;
   }
 }
+
 
 .logo--dark {
   color: #212121;
