@@ -171,35 +171,38 @@
           <h2 class="occupation__title">Чем мы занимаемся</h2>
           <ul class="occupation__list">
             <li class="occupation__item">
-              <img
-                class=""
-                src="./images/img_1.jpg"
-                alt="Картинка 1"
-                width="370"
-                height="294"
-              />
+              <picture>
+                    <source srcset="
+                        ./images/index/desktop-app-1x.jpg 1x,
+                        ./images/index/desktop-app-2x.jpg 2x
+                      " media="(min-width:1200px)">
+                   
+                    <img src="./images/index/desktop-app-1x.jpg" alt="Десктопные приложения">
+                  </picture>
               <span class="occupation__description">Десктопные приложения</span>
             </li>
 
             <li class="occupation__item">
-              <img
-                class=""
-                src="./images/img_2.jpg"
-                alt="Картинка 2"
-                width="370"
-                height="294"
-              />
-              <span class="occupation__description">Десктопные приложения</span>
+              <picture>
+                    <source srcset="
+                        ./images/index/mobile-app-1x.jpg 1x,
+                        ./images/index/mobile-app-2x.jpg 2x
+                      " media="(min-width:1200px)">
+                   
+                    <img src="./images/index/mobile-app-1x.jpg" alt="Мобильные приложения">
+                  </picture>
+              <span class="occupation__description">Мобильные приложения</span>
             </li>
             <li class="occupation__item">
-              <img
-                class=""
-                src="./images/img_3.jpg"
-                alt="Картинка 3"
-                width="370"
-                height="294"
-              />
-              <span class="occupation__description">Десктопные приложения</span>
+              <picture>
+                    <source srcset="
+                        ./images/index/design_solutions-1x.jpg 1x,
+                        ./images/index/design_solutions-2x.jpg 2x
+                      " media="(min-width:1200px)">
+                   
+                    <img src="./images/index/design_solutions-1x.jpg" alt="Дизайнерские решения">
+                  </picture>
+              <span class="occupation__description">Дизайнерские решения</span>
             </li>
           </ul>
         </div>
@@ -212,11 +215,23 @@
           <h2 class="team__title">Наша команда</h2>
           <ul class="team__list">
             <li class="team__item">
-              <img
-                src="./images/ihor.jpg"
-                alt="Фото Игорь Демьяненко"
-                width="270"
-              />
+              <picture>
+                    <source srcset="
+                        ./images/index/ihor-desktop-1x.jpg 1x,
+                        ./images/index/ihor-desktop-2x.jpg 2x
+                      " media="(min-width:1200px)">
+                    <source srcset="
+                        ./images/index/ihor-tablet-1x.jpg 1x,
+                        ./images/index/ihor-tablet-2x.jpg 2x
+                      " media="(min-width:768px)">
+                    <source srcset="
+                        ./images/index/ihor-mob-1x.jpg 1x,
+                        ./images/index/ihor-mob-2x.jpg 2x
+                      " media="(max-width:767px)">
+                    <img src="./images/index/ihor-mob-1x.jpg" alt="Фото Игорь Демьяненко">
+                  </picture>
+
+
               <h3 class="team__name">Игорь Демьяненко</h3>
               <p class="team__position">Product Designer</p>
               <ul class="social-box">
@@ -251,11 +266,21 @@
               </ul>
             </li>
             <li class="team__item">
-              <img
-                src="./images/olha.jpg"
-                alt="Фото Игорь Демьяненко"
-                width="270"
-              />
+              <picture>
+                    <source srcset="
+                        ./images/index/olha-desktop-1x.jpg 1x,
+                        ./images/index/olha-desktop-2x.jpg 2x
+                      " media="(min-width:1200px)">
+                    <source srcset="
+                        ./images/index/olha-tablet-1x.jpg 1x,
+                        ./images/index/olha-tablet-2x.jpg 2x
+                      " media="(min-width:768px)">
+                    <source srcset="
+                        ./images/index/olha-mob-1x.jpg 1x,
+                        ./images/index/olha-mob-2x.jpg 2x
+                      " media="(max-width:767px)">
+                    <img src="./images/index/olha-mob-1x.jpg" alt="Фото Ольга Репина">
+                  </picture>
               <h3 class="team__name">Ольга Репина</h3>
               <p class="team__position">Frontend Developer</p>
               <ul class="social-box">
@@ -291,11 +316,21 @@
             </li>
 
             <li class="team__item">
-              <img
-                src="./images/nikolay.jpg"
-                alt="Фото Игорь Демьяненко"
-                width="270"
-              />
+              <picture>
+                    <source srcset="
+                        ./images/index/nikolay-desktop-1x.jpg 1x,
+                        ./images/index/nikolay-desktop-2x.jpg 2x
+                      " media="(min-width:1200px)">
+                    <source srcset="
+                        ./images/index/nikolay-tablet-1x.jpg 1x,
+                        ./images/index/nikolay-tablet-2x.jpg 2x
+                      " media="(min-width:768px)">
+                    <source srcset="
+                        ./images/index/nikolay-mob-1x.jpg 1x,
+                        ./images/index/nikolay-mob-2x.jpg 2x
+                      " media="(max-width:767px)">
+                    <img src="./images/index/nikolay-mob-1x.jpg" alt="Фото Николай Тарасов">
+                  </picture>
               <h3 class="team__name">Николай Тарасов</h3>
               <p class="team__position">Marketing</p>
               <ul class="social-box">
@@ -330,11 +365,21 @@
               </ul>
             </li>
             <li class="team__item">
-              <img
-                src="./images/mihail.jpg"
-                alt="Фото Игорь Демьяненко"
-                width="270"
-              />
+              <picture>
+                    <source srcset="
+                        ./images/index/mikhail-desktop-1x.jpg 1x,
+                        ./images/index/mikhail-desktop-2x.jpg 2x
+                      " media="(min-width:1200px)">
+                    <source srcset="
+                        ./images/index/mikhail-tablet-1x.jpg 1x,
+                        ./images/index/mikhail-tablet-2x.jpg 2x
+                      " media="(min-width:768px)">
+                    <source srcset="
+                        ./images/index/mikhail-mob-1x.jpg 1x,
+                        ./images/index/mikhail-mob-2x.jpg 2x
+                      " media="(max-width:767px)">
+                    <img src="./images/index/mikhail-mob-1x.jpg" alt="Фото Михаил Ермаков">
+                  </picture>
               <h3 class="team__name">Михаил Ермаков</h3>
               <p class="team__position">UI Designer</p>
               <ul class="social-box">
