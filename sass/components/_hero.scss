@@ -34,7 +34,32 @@
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
+  @media screen and (max-width: 768px) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/hero-mob-1x.jpg");
+  }
+  @media screen and (min-width: 768px) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/hero-tablet-1x.jpg");
+  }
+  @media screen and (min-width: 1200px) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/hero-desktop-1x.jpg");
+  }
 }
+
 @media not all,
   screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 768px),
   screen and (min-resolution: 192dpi) and (max-width: 768px),

@@ -84,6 +84,7 @@
   line-height: 40px;
   letter-spacing: 0.02em;
   color: #2196f3;
+  transition: color 250ms $timing-function;
   @media screen and (min-width: 767px) {
     display: flex;
     align-items: center;

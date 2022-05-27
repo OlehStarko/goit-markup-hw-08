@@ -61,6 +61,11 @@
     color: $header-link-color;
     transition: color 250ms $timing-function;
   }
+  &:hover,
+  &:focus,
+  &:active {
+    color: $header-contact-link-active-color;
+  }
 }
 
 .header__link--current {
@@ -77,11 +82,6 @@
       height: 4px;
       background-color: #188ce8;
       border-radius: 2px;
-    }
-
-    &:hover,
-    &:focus,
-    &:active {
     }
   }
 }
