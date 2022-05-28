@@ -12,14 +12,12 @@
   color: #2196f3;
 }
 .logo--absolute {
-
   @media screen and(max-width:767px) {
     position: absolute;
     left: 15px;
     top: 16px;
   }
 }
-
 
 .logo--dark {
   color: #212121;

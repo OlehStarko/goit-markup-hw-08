@@ -51,68 +51,89 @@
             <div class="menu__container" data-menu>
               <ul class="header__list">
                 <li class="header__item">
-                  <a
-                    href="./index.html"
-                    class="header__link "
-                    >Студия
-                  </a>
+                  <a href="./index.html" class="header__link">Студия </a>
                 </li>
                 <li class="header__item">
-                  <a href="./portfolio.html" class="header__link header__link--current">Портфолио</a>
+                  <a
+                    href="./portfolio.html"
+                    class="header__link header__link--current"
+                    >Портфолио</a
+                  >
                 </li>
                 <li class="header__item">
                   <a href="" class="header__link">Контакты</a>
                 </li>
               </ul>
-
-              <ul class="contact__list">
-                
-                <li class="contact__item contact__item--margin-right">
-                  <a
-                    href="tel:+380991111111"
-                    class="contact__link"
-                  >
-                    <svg
-                      class="contact__list--smartphone"
-                      width="10px"
-                      height="16px"
+              <div>
+                <ul class="contact__list">
+                  <li class="contact__item contact__item--margin-right">
+                    <a href="tel:+380991111111" class="contact__link">
+                      <svg
+                        class="contact__list--smartphone"
+                        width="10px"
+                        height="16px"
+                      >
+                        <use
+                          href="./images/icons-defs.svg#icon-smartphone"
+                        ></use>
+                      </svg>
+                      +38 099 111 11 11</a
                     >
-                      <use href="./images/icons-defs.svg#icon-smartphone"></use>
-                    </svg>
-                    +38 099 111 11 11</a
-                  >
-                </li>
-                <li class="contact__item">
-                  <a href="mailto:info@devstudio.com" class="contact__link contact__link--dark">
-                    <svg class="contact__list--mail" width="16px" height="12px">
-                      <use href="./images/icons-defs.svg#icon-mail"></use>
-                    </svg>
+                  </li>
+                  <li class="contact__item">
+                    <a
+                      href="mailto:info@devstudio.com"
+                      class="contact__link contact__link--dark"
+                    >
+                      <svg
+                        class="contact__list--mail"
+                        width="16px"
+                        height="12px"
+                      >
+                        <use href="./images/icons-defs.svg#icon-mail"></use>
+                      </svg>
 
-                    info@devstudio.com</a
-                  >
-                </li>
-              </ul>
-              <ul class="social__list">
-                <li class="social__item">
-                  <a href="https://www.instagram.com/" target="_blank" class="social__link">Instagram
-                  </a>
-                </li>
-                <li class="social__item">
-                  <a href="https://twitter.com/" target="_blank" class="social__link">Twitter
-                  </a>
-                </li>
-                <li class="social__item">
-                  <a href="https://www.facebook.com/"  target="_blank" class="social__link">Facebook
-                  </a>
-                </li>
-                <li class="social__item">
-                  <a href="https://www.linkedin.com/" target="_blank" class="social__link">LinkedIn
-                  </a>
-                </li>
+                      info@devstudio.com</a
+                    >
+                  </li>
+                </ul>
+                <ul class="social__list">
+                  <li class="social__item">
+                    <a
+                      href="https://www.instagram.com/"
+                      target="_blank"
+                      class="social__link"
+                      >Instagram
+                    </a>
+                  </li>
+                  <li class="social__item">
+                    <a
+                      href="https://twitter.com/"
+                      target="_blank"
+                      class="social__link"
+                      >Twitter
+                    </a>
+                  </li>
+                  <li class="social__item">
+                    <a
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      class="social__link"
+                      >Facebook
+                    </a>
+                  </li>
+                  <li class="social__item">
+                    <a
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                      class="social__link"
+                      >LinkedIn
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
-           
           </nav>
-         
         </div>
       </div>
     </header>
@@ -154,20 +175,32 @@
                 </div>
 
                 <picture>
-                    <source srcset="
-                        ./images/portfolio/portfolio-desktop/portfolio-desktop-1x.jpg 1x,
-                        ./images/portfolio/portfolio-desktop/portfolio-desktop-2x.jpg 2x
-                      " media="(min-width:1200px)">
-                    <source srcset="
-                        ./images/portfolio/portfolio-tablet/portfolio-tablet-1x.jpg 1x,
-                        ./images/portfolio/portfolio-tablet/portfolio-tablet-2x.jpg 2x
-                      " media="(min-width:768px)">
-                    <source srcset="
-                        ./images/portfolio/portfolio-mob/portfolio-mob-1x.jpg 1x,
-                        ./images/portfolio/portfolio-mob/portfolio-mob-2x.jpg 2x
-                      " media="(max-width:767px)">
-                    <img src="./images/portfolio/portfolio-desktop/portfolio-desktop-1x.jpg" alt="Технокряк">
-                  </picture>
+                  <source
+                    srcset="
+                      ./images/portfolio/portfolio-desktop/portfolio-desktop-1x.jpg 1x,
+                      ./images/portfolio/portfolio-desktop/portfolio-desktop-2x.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet-1x.jpg 1x,
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet-2x.jpg 2x
+                    "
+                    media="(min-width:768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/portfolio-mob/portfolio-mob-1x.jpg 1x,
+                      ./images/portfolio/portfolio-mob/portfolio-mob-2x.jpg 2x
+                    "
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="./images/portfolio/portfolio-desktop/portfolio-desktop-1x.jpg"
+                    alt="Технокряк"
+                  />
+                </picture>
                 <div class="list__description">
                   <h2 class="list__company">Технокряк</h2>
                   <p class="list__job">Веб-сайт</p>
@@ -188,20 +221,32 @@
                   </div>
                 </div>
                 <picture>
-                    <source srcset="
-                        ./images/portfolio/portfolio-desktop/portfolio-desktop-1x-1.jpg 1x,
-                        ./images/portfolio/portfolio-desktop/portfolio-desktop-2x-1.jpg 2x
-                      " media="(min-width:1200px)">
-                    <source srcset="
-                        ./images/portfolio/portfolio-tablet/portfolio-tablet-1x-1.jpg 1x,
-                        ./images/portfolio/portfolio-tablet/portfolio-tablet-2x-1.jpg 2x
-                      " media="(min-width:768px)">
-                    <source srcset="
-                        ./images/portfolio/portfolio-mob/portfolio-mob-1x-1.jpg 1x,
-                        ./images/portfolio/portfolio-mob/portfolio-mob-2x-1.jpg 2x
-                      " media="(max-width:767px)">
-                    <img src="./images/portfolio/portfolio-desktop/portfolio-desktop-1x-1.jpg" alt="New Orlean vs Golden Star">
-                  </picture>
+                  <source
+                    srcset="
+                      ./images/portfolio/portfolio-desktop/portfolio-desktop-1x-1.jpg 1x,
+                      ./images/portfolio/portfolio-desktop/portfolio-desktop-2x-1.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet-1x-1.jpg 1x,
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet-2x-1.jpg 2x
+                    "
+                    media="(min-width:768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/portfolio-mob/portfolio-mob-1x-1.jpg 1x,
+                      ./images/portfolio/portfolio-mob/portfolio-mob-2x-1.jpg 2x
+                    "
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="./images/portfolio/portfolio-desktop/portfolio-desktop-1x-1.jpg"
+                    alt="New Orlean vs Golden Star"
+                  />
+                </picture>
                 <div class="list__description">
                   <h2 class="list__company">
                     Постер New Orlean vs Golden Star
@@ -224,20 +269,32 @@
                   </div>
                 </div>
                 <picture>
-                    <source srcset="
-                        ./images/portfolio/portfolio-desktop/portfolio-desktop-1x-2.jpg 1x,
-                        ./images/portfolio/portfolio-desktop/portfolio-desktop-2x-2.jpg 2x
-                      " media="(min-width:1200px)">
-                    <source srcset="
-                        ./images/portfolio/portfolio-tablet/portfolio-tablet-1x-2.jpg 1x,
-                        ./images/portfolio/portfolio-tablet/portfolio-tablet-2x-2.jpg 2x
-                      " media="(min-width:768px)">
-                    <source srcset="
-                        ./images/portfolio/portfolio-mob/portfolio-mob-1x-2.jpg 1x,
-                        ./images/portfolio/portfolio-mob/portfolio-mob-2x-2.jpg 2x
-                      " media="(max-width:767px)">
-                    <img src="./images/portfolio/portfolio-desktop/portfolio-desktop-1x-2.jpg" alt="Seafood">
-                  </picture>
+                  <source
+                    srcset="
+                      ./images/portfolio/portfolio-desktop/portfolio-desktop-1x-2.jpg 1x,
+                      ./images/portfolio/portfolio-desktop/portfolio-desktop-2x-2.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet-1x-2.jpg 1x,
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet-2x-2.jpg 2x
+                    "
+                    media="(min-width:768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/portfolio-mob/portfolio-mob-1x-2.jpg 1x,
+                      ./images/portfolio/portfolio-mob/portfolio-mob-2x-2.jpg 2x
+                    "
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="./images/portfolio/portfolio-desktop/portfolio-desktop-1x-2.jpg"
+                    alt="Seafood"
+                  />
+                </picture>
                 <div class="list__description">
                   <h2 class="list__company">Ресторан Seafood</h2>
                   <p class="list__job">Приложение</p>
@@ -257,20 +314,32 @@
                   </div>
                 </div>
                 <picture>
-                    <source srcset="
-                        ./images/portfolio/portfolio-desktop/portfolio-desktop-1x-3.jpg 1x,
-                        ./images/portfolio/portfolio-desktop/portfolio-desktop-2x-3.jpg 2x
-                      " media="(min-width:1200px)">
-                    <source srcset="
-                        ./images/portfolio/portfolio-tablet/portfolio-tablet-1x-3.jpg 1x,
-                        ./images/portfolio/portfolio-tablet/portfolio-tablet-2x-3.jpg 2x
-                      " media="(min-width:768px)">
-                    <source srcset="
-                        ./images/portfolio/portfolio-mob/portfolio-mob-1x-3.jpg 1x,
-                        ./images/portfolio/portfolio-mob/portfolio-mob-2x-3.jpg 2x
-                      " media="(max-width:767px)">
-                    <img src="./images/portfolio/portfolio-desktop/portfolio-desktop-1x-3.jpg" alt="Prime">
-                  </picture>
+                  <source
+                    srcset="
+                      ./images/portfolio/portfolio-desktop/portfolio-desktop-1x-3.jpg 1x,
+                      ./images/portfolio/portfolio-desktop/portfolio-desktop-2x-3.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet-1x-3.jpg 1x,
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet-2x-3.jpg 2x
+                    "
+                    media="(min-width:768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/portfolio-mob/portfolio-mob-1x-3.jpg 1x,
+                      ./images/portfolio/portfolio-mob/portfolio-mob-2x-3.jpg 2x
+                    "
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="./images/portfolio/portfolio-desktop/portfolio-desktop-1x-3.jpg"
+                    alt="Prime"
+                  />
+                </picture>
                 <div class="list__description">
                   <h2 class="list__company">Проект Prime</h2>
                   <p class="list__job">Маркетинг</p>
@@ -290,20 +359,32 @@
                   </div>
                 </div>
                 <picture>
-                    <source srcset="
-                        ./images/portfolio/portfolio-desktop/portfolio-desktop-1x-4.jpg 1x,
-                        ./images/portfolio/portfolio-desktop/portfolio-desktop-2x-4.jpg 2x
-                      " media="(min-width:1200px)">
-                    <source srcset="
-                        ./images/portfolio/portfolio-tablet/portfolio-tablet-1x-4.jpg 1x,
-                        ./images/portfolio/portfolio-tablet/portfolio-tablet-2x-4.jpg 2x
-                      " media="(min-width:768px)">
-                    <source srcset="
-                        ./images/portfolio/portfolio-mob/portfolio-mob-1x-4.jpg 1x,
-                        ./images/portfolio/portfolio-mob/portfolio-mob-2x-4.jpg 2x
-                      " media="(max-width:767px)">
-                    <img src="./images/portfolio/portfolio-desktop/portfolio-desktop-1x-4.jpg" alt="Boxes">
-                  </picture>
+                  <source
+                    srcset="
+                      ./images/portfolio/portfolio-desktop/portfolio-desktop-1x-4.jpg 1x,
+                      ./images/portfolio/portfolio-desktop/portfolio-desktop-2x-4.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet-1x-4.jpg 1x,
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet-2x-4.jpg 2x
+                    "
+                    media="(min-width:768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/portfolio-mob/portfolio-mob-1x-4.jpg 1x,
+                      ./images/portfolio/portfolio-mob/portfolio-mob-2x-4.jpg 2x
+                    "
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="./images/portfolio/portfolio-desktop/portfolio-desktop-1x-4.jpg"
+                    alt="Boxes"
+                  />
+                </picture>
                 <div class="list__description">
                   <h2 class="list__company">Проект Boxes</h2>
                   <p class="list__job">Приложение</p>
@@ -323,20 +404,32 @@
                   </div>
                 </div>
                 <picture>
-                    <source srcset="
-                        ./images/portfolio/portfolio-desktop/portfolio-desktop-1x-5.jpg 1x,
-                        ./images/portfolio/portfolio-desktop/portfolio-desktop-2x-5.jpg 2x
-                      " media="(min-width:1200px)">
-                    <source srcset="
-                        ./images/portfolio/portfolio-tablet/portfolio-tablet-1x-5.jpg 1x,
-                        ./images/portfolio/portfolio-tablet/portfolio-tablet-2x-5.jpg 2x
-                      " media="(min-width:768px)">
-                    <source srcset="
-                        ./images/portfolio/portfolio-mob/portfolio-mob-1x-5.jpg 1x,
-                        ./images/portfolio/portfolio-mob/portfolio-mob-2x-5.jpg 2x
-                      " media="(max-width:767px)">
-                    <img src="./images/portfolio/portfolio-desktop/portfolio-desktop-1x-5.jpg" alt="Inspiration has no Borders">
-                  </picture>
+                  <source
+                    srcset="
+                      ./images/portfolio/portfolio-desktop/portfolio-desktop-1x-5.jpg 1x,
+                      ./images/portfolio/portfolio-desktop/portfolio-desktop-2x-5.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet-1x-5.jpg 1x,
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet-2x-5.jpg 2x
+                    "
+                    media="(min-width:768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/portfolio-mob/portfolio-mob-1x-5.jpg 1x,
+                      ./images/portfolio/portfolio-mob/portfolio-mob-2x-5.jpg 2x
+                    "
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="./images/portfolio/portfolio-desktop/portfolio-desktop-1x-5.jpg"
+                    alt="Inspiration has no Borders"
+                  />
+                </picture>
                 <div class="list__description">
                   <h2 class="list__company">Inspiration has no Borders</h2>
                   <p class="list__job">Веб-сайт</p>
@@ -356,20 +449,32 @@
                   </div>
                 </div>
                 <picture>
-                    <source srcset="
-                        ./images/portfolio/portfolio-desktop/portfolio-desktop-1x-6.jpg 1x,
-                        ./images/portfolio/portfolio-desktop/portfolio-desktop-2x-6.jpg 2x
-                      " media="(min-width:1200px)">
-                    <source srcset="
-                        ./images/portfolio/portfolio-tablet/portfolio-tablet-1x-6.jpg 1x,
-                        ./images/portfolio/portfolio-tablet/portfolio-tablet-2x-6.jpg 2x
-                      " media="(min-width:768px)">
-                    <source srcset="
-                        ./images/portfolio/portfolio-mob/portfolio-mob-1x-6.jpg 1x,
-                        ./images/portfolio/portfolio-mob/portfolio-mob-2x-6.jpg 2x
-                      " media="(max-width:767px)">
-                    <img src="./images/portfolio/portfolio-desktop/portfolio-desktop-1x-6.jpg" alt="Limited Edition">
-                  </picture>
+                  <source
+                    srcset="
+                      ./images/portfolio/portfolio-desktop/portfolio-desktop-1x-6.jpg 1x,
+                      ./images/portfolio/portfolio-desktop/portfolio-desktop-2x-6.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet-1x-6.jpg 1x,
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet-2x-6.jpg 2x
+                    "
+                    media="(min-width:768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/portfolio-mob/portfolio-mob-1x-6.jpg 1x,
+                      ./images/portfolio/portfolio-mob/portfolio-mob-2x-6.jpg 2x
+                    "
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="./images/portfolio/portfolio-desktop/portfolio-desktop-1x-6.jpg"
+                    alt="Limited Edition"
+                  />
+                </picture>
                 <div class="list__description">
                   <h2 class="list__company">Издание Limited Edition</h2>
                   <p class="list__job">Дизайн</p>
@@ -390,20 +495,32 @@
                   </div>
                 </div>
                 <picture>
-                    <source srcset="
-                        ./images/portfolio/portfolio-desktop/portfolio-desktop-1x-7.jpg 1x,
-                        ./images/portfolio/portfolio-desktop/portfolio-desktop-2x-7.jpg 2x
-                      " media="(min-width:1200px)">
-                    <source srcset="
-                        ./images/portfolio/portfolio-tablet/portfolio-tablet-1x-7.jpg 1x,
-                        ./images/portfolio/portfolio-tablet/portfolio-tablet-2x-7.jpg 2x
-                      " media="(min-width:768px)">
-                    <source srcset="
-                        ./images/portfolio/portfolio-mob/portfolio-mob-1x-7.jpg 1x,
-                        ./images/portfolio/portfolio-mob/portfolio-mob-2x-7.jpg 2x
-                      " media="(max-width:767px)">
-                    <img src="./images/portfolio/portfolio-desktop/portfolio-desktop-1x-7.jpg" alt="LAB">
-                  </picture>
+                  <source
+                    srcset="
+                      ./images/portfolio/portfolio-desktop/portfolio-desktop-1x-7.jpg 1x,
+                      ./images/portfolio/portfolio-desktop/portfolio-desktop-2x-7.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet-1x-7.jpg 1x,
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet-2x-7.jpg 2x
+                    "
+                    media="(min-width:768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/portfolio-mob/portfolio-mob-1x-7.jpg 1x,
+                      ./images/portfolio/portfolio-mob/portfolio-mob-2x-7.jpg 2x
+                    "
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="./images/portfolio/portfolio-desktop/portfolio-desktop-1x-7.jpg"
+                    alt="LAB"
+                  />
+                </picture>
                 <div class="list__description">
                   <h2 class="list__company">Проект LAB</h2>
                   <p class="list__job">Маркетинг</p>
@@ -423,20 +540,32 @@
                   </div>
                 </div>
                 <picture>
-                    <source srcset="
-                        ./images/portfolio/portfolio-desktop/portfolio-desktop-1x-8.jpg 1x,
-                        ./images/portfolio/portfolio-desktop/portfolio-desktop-2x-8.jpg 2x
-                      " media="(min-width:1200px)">
-                    <source srcset="
-                        ./images/portfolio/portfolio-tablet/portfolio-tablet-1x-8.jpg 1x,
-                        ./images/portfolio/portfolio-tablet/portfolio-tablet-2x-8.jpg 2x
-                      " media="(min-width:768px)">
-                    <source srcset="
-                        ./images/portfolio/portfolio-mob/portfolio-mob-1x-8.jpg 1x,
-                        ./images/portfolio/portfolio-mob/portfolio-mob-2x-8.jpg 2x
-                      " media="(max-width:767px)">
-                    <img src="./images/portfolio/portfolio-desktop/portfolio-desktop-1x-8.jpg" alt="Growing Business">
-                  </picture>
+                  <source
+                    srcset="
+                      ./images/portfolio/portfolio-desktop/portfolio-desktop-1x-8.jpg 1x,
+                      ./images/portfolio/portfolio-desktop/portfolio-desktop-2x-8.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet-1x-8.jpg 1x,
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet-2x-8.jpg 2x
+                    "
+                    media="(min-width:768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/portfolio-mob/portfolio-mob-1x-8.jpg 1x,
+                      ./images/portfolio/portfolio-mob/portfolio-mob-2x-8.jpg 2x
+                    "
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="./images/portfolio/portfolio-desktop/portfolio-desktop-1x-8.jpg"
+                    alt="Growing Business"
+                  />
+                </picture>
                 <div class="list__description">
                   <h2 class="list__company">Growing Business</h2>
                   <p class="list__job">Приложение</p>
@@ -448,105 +577,105 @@
       </section>
     </main>
 
-       <!-- Footer-->
+    <!-- Footer-->
 
-       <footer class="footer">
-        <div class="container footer__conatiner">
-          <div class="footer__box">
-            <div class="adress">
-              <a href="index.html" class="logo"
-                >Web<span class="logo--white">Studio</span></a
-              >
-              <address class="adress__box">
-                <ul>
-                  <li class="adress__item">
-                    <p class="adress__name">г. Киев, пр-т Леси Украинки, 26</p>
-                  </li>
-                  <li class="contact__item contact__item--center">
-                    <a href="mailto:info@example.com" class="contact__link--small"
-                      >info@example.com</a
-                    >
-                  </li>
-                  <li class="contact__item contact__item--center">
-                    <a href="tel:+380991111111" class="contact__link--small">
-                      +38 099 111 11 11</a
-                    >
-                  </li>
-                </ul>
-              </address>
-            </div>
-  
-            <div class="social">
-              <p class="social__title">присоединяйтесь</p>
-              <ul class="social-box social-box--dark">
-                <li class="social-box__item">
-                  <button class="social-box__button social-box__button--dark">
-                    <svg class="social-box__icon" width="20px" height="20px">
-                      <use href="./images/icons-defs.svg#icon-instagram"></use>
-                    </svg>
-                  </button>
+    <footer class="footer">
+      <div class="container footer__conatiner">
+        <div class="footer__box">
+          <div class="adress">
+            <a href="index.html" class="logo"
+              >Web<span class="logo--white">Studio</span></a
+            >
+            <address class="adress__box">
+              <ul>
+                <li class="adress__item">
+                  <p class="adress__name">г. Киев, пр-т Леси Украинки, 26</p>
                 </li>
-                <li class="social-box__item">
-                  <button class="social-box__button social-box__button--dark">
-                    <svg class="social-box__icon" width="20px" height="16px">
-                      <use href="./images/icons-defs.svg#icon-twitter"></use>
-                    </svg>
-                  </button>
+                <li class="contact__item contact__item--center">
+                  <a href="mailto:info@example.com" class="contact__link--small"
+                    >info@example.com</a
+                  >
                 </li>
-                <li class="social-box__item">
-                  <button class="social-box__button social-box__button--dark">
-                    <svg class="social-box__icon" width="10px" height="20px">
-                      <use href="./images/icons-defs.svg#icon-facebook"></use>
-                    </svg>
-                  </button>
-                </li>
-                <li class="social-box__item">
-                  <button class="social-box__button social-box__button--dark">
-                    <svg class="social-box__icon" width="20px" height="20px">
-                      <use href="./images/icons-defs.svg#icon-indesign"></use>
-                    </svg>
-                  </button>
+                <li class="contact__item contact__item--center">
+                  <a href="tel:+380991111111" class="contact__link--small">
+                    +38 099 111 11 11</a
+                  >
                 </li>
               </ul>
-            </div>
+            </address>
           </div>
-          <div class="subscribe">
-            <p class="subscribe__title">Подпишитесь на рассылку</p>
-  
-            <form class="subscribe__field">
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="E-mail"
-                class="subscribe__input"
-              />
-  
-              <button class="button footer__button" data-modal-open>
-                Подписаться
-                <svg width="24px" height="24px" class="subscribe__icon">
-                  <use href="./images/icons-defs.svg#icon-icon-send"></use>
-                </svg>
-              </button>
-            </form>
+
+          <div class="social">
+            <p class="social__title">присоединяйтесь</p>
+            <ul class="social-box social-box--dark">
+              <li class="social-box__item">
+                <button class="social-box__button social-box__button--dark">
+                  <svg class="social-box__icon" width="20px" height="20px">
+                    <use href="./images/icons-defs.svg#icon-instagram"></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="social-box__item">
+                <button class="social-box__button social-box__button--dark">
+                  <svg class="social-box__icon" width="20px" height="16px">
+                    <use href="./images/icons-defs.svg#icon-twitter"></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="social-box__item">
+                <button class="social-box__button social-box__button--dark">
+                  <svg class="social-box__icon" width="10px" height="20px">
+                    <use href="./images/icons-defs.svg#icon-facebook"></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="social-box__item">
+                <button class="social-box__button social-box__button--dark">
+                  <svg class="social-box__icon" width="20px" height="20px">
+                    <use href="./images/icons-defs.svg#icon-indesign"></use>
+                  </svg>
+                </button>
+              </li>
+            </ul>
           </div>
         </div>
-      </footer>
-      <script>
-        (() => {
-          const menuBtnRef = document.querySelector("[data-menu-button]");
-          const mobileMenuRef = document.querySelector("[data-menu]");
-  
-          menuBtnRef.addEventListener("click", () => {
-            const expanded =
-              menuBtnRef.getAttribute("aria-expanded") === "true" || false;
-  
-            menuBtnRef.classList.toggle("is-open");
-            menuBtnRef.setAttribute("aria-expanded", !expanded);
-  
-            mobileMenuRef.classList.toggle("is-open");
-          });
-        })();
-      </script>
+        <div class="subscribe">
+          <p class="subscribe__title">Подпишитесь на рассылку</p>
+
+          <form class="subscribe__field">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="E-mail"
+              class="subscribe__input"
+            />
+
+            <button class="button footer__button" data-modal-open>
+              Подписаться
+              <svg width="24px" height="24px" class="subscribe__icon">
+                <use href="./images/icons-defs.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <script>
+      (() => {
+        const menuBtnRef = document.querySelector("[data-menu-button]");
+        const mobileMenuRef = document.querySelector("[data-menu]");
+
+        menuBtnRef.addEventListener("click", () => {
+          const expanded =
+            menuBtnRef.getAttribute("aria-expanded") === "true" || false;
+
+          menuBtnRef.classList.toggle("is-open");
+          menuBtnRef.setAttribute("aria-expanded", !expanded);
+
+          mobileMenuRef.classList.toggle("is-open");
+        });
+      })();
+    </script>
   </body>
 </html>

@@ -39,8 +39,11 @@
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
-  text-align: center;
+
   color: $dignity-article-text-color;
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
 }
 .dignity__description {
   line-height: 24px;

@@ -19,6 +19,9 @@
   }
 }
 .adress {
+  @media screen and(min-width: 1199px) {
+    text-align: left;
+  }
 }
 
 .adress__box {

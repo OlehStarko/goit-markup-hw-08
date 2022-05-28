@@ -16,7 +16,6 @@
   }
 }
 .contact__list {
-  margin-top: 302px;
   @media screen and(min-width: 767px) {
     margin-top: 0;
     display: flex;
@@ -62,6 +61,7 @@
     margin-bottom: 60px;
   }
   @media screen and(min-width: 1199px) {
+    text-align: left;
     &:last-child {
       margin-bottom: 0;
     }
